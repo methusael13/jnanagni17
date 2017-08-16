@@ -1,0 +1,47 @@
+
+.panel-right {
+    position: fixed;
+    top: 4.8em; right: 0;
+    z-index: -1; height: calc(100vh - 4.8em);
+
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+}
+
+.panel-right .desc { flex: 1; }
+
+.date-info, .desc {
+    display: flex; padding: 2em;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+}
+
+.date-info { background-color: #ffe870; }
+.desc { color: #5d5d5d; }
+
+.date-text, .desc-text {
+    font-family: 'Open Sans Condensed';
+    font-size: 2em;
+}
+
+.date-label {
+    font-family: 'Ranga';
+    font-size: 1.4em; line-height: 0.2em;
+    align-self: flex-start;
+
+    color: #a58703;
+}
+
+.date-info #dow { letter-spacing: 0.85em; }
+.date-info #dow, .date-info #dowy { font-size: 2.6em; color: #a08700; }
+.date-info #moy { font-size: 3.8em; font-weight: bold; }
+.date-info #y { font-size: 3.8em; }
+
+.desc #college {
+    text-transform: uppercase;
+    text-align: right; letter-spacing: 0.4em;
+    word-wrap: break-word;
+}

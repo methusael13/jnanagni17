@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512.00001 512.00001"
+   id="svg4250"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="gear.svg">
+  <defs
+     id="defs4252" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ff8080"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="245.05583"
+     inkscape:cy="240"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="727"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4255">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36216)">
+    <g
+       transform="translate(-0.12109482,-1.5830098)"
+       id="gear">
+      <path
+         inkscape:connector-curvature="0"
+         transform="translate(0,540.36216)"
+         id="ring"
+         d="m 251.93555,105.84961 c -15.96652,0.44055 -4.57241,17.86209 -20.27344,20.79492 -15.70103,2.93284 -11.36123,-17.42908 -26.41016,-12.07617 -15.04892,5.35291 1.17276,18.40179 -12.85351,26.04297 -14.02627,7.64118 -16.19333,-13.06356 -28.85156,-3.32227 -12.65824,9.7413 6.80273,17.13674 -4.17579,28.73828 -10.97852,11.60155 -19.43832,-7.42027 -28.46679,5.75586 -9.02848,13.17613 11.76432,14.19677 4.9082,28.62305 -6.85612,14.42628 -20.77803,-1.05167 -25.29297,14.26953 -4.51494,15.3212 15.57626,9.86817 13.51367,25.70703 -2.06259,15.83886 -20.08703,5.4202 -19.64648,21.38672 0.44054,15.96652 17.86208,4.57046 20.79492,20.27149 2.93284,15.70102 -17.42713,11.36318 -12.07422,26.4121 5.35291,15.04893 18.39984,-1.17275 26.04102,12.85352 7.64117,14.02627 -13.06356,16.19332 -3.32227,28.85156 9.7413,12.65824 17.13869,-6.80274 28.74024,4.17578 11.60154,10.97852 -7.42028,19.43637 5.75586,28.46485 13.17613,9.02847 14.19677,-11.76432 28.62304,-4.90821 14.42628,6.85612 -1.05166,20.77999 14.26953,25.29493 15.3212,4.51494 9.86622,-15.57627 25.70508,-13.51367 15.83886,2.06259 5.42216,20.08507 21.38867,19.64453 15.96652,-0.44055 4.57046,-17.86209 20.27149,-20.79493 15.70103,-2.93283 11.36318,17.42909 26.41211,12.07618 15.04892,-5.35291 -1.17275,-18.4018 12.85351,-26.04297 14.02627,-7.64118 16.19137,13.06356 28.84961,3.32226 12.65824,-9.74129 -6.80078,-17.13673 4.17774,-28.73828 10.97852,-11.60154 19.43637,7.42027 28.46484,-5.75586 9.02848,-13.17613 -11.76432,-14.19677 -4.9082,-28.62304 6.85612,-14.42628 20.77802,1.05166 25.29297,-14.26954 4.51494,-15.32119 -15.57627,-9.86621 -13.51368,-25.70507 2.0626,-15.83886 20.08703,-5.42216 19.64649,-21.38868 -0.44055,-15.96651 -17.86209,-4.57045 -20.79492,-20.27148 -2.93284,-15.70103 17.42713,-11.36318 12.07422,-26.41211 -5.35291,-15.04892 -18.39984,1.17275 -26.04102,-12.85351 -7.64118,-14.02627 13.06356,-16.19138 3.32227,-28.84961 -9.7413,-12.65824 -17.13674,6.80078 -28.73829,-4.17774 -11.60154,-10.97852 7.42028,-19.43637 -5.75585,-28.46484 -13.17614,-9.02848 -14.19678,11.76432 -28.62305,4.9082 -14.42628,-6.85612 1.04971,-20.77803 -14.27149,-25.29297 -15.32119,-4.51494 -9.86621,15.57431 -25.70507,13.51172 -15.83887,-2.06259 -5.4202,-20.08508 -21.38672,-19.64453 z m 4.06836,26.59961 A 123.55022,123.55022 0 0 1 379.55469,256 123.55022,123.55022 0 0 1 256.00391,379.55078 123.55022,123.55022 0 0 1 132.45508,256 123.55022,123.55022 0 0 1 256.00391,132.44922 Z"
+         style="opacity:0.85;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="111.52941"
+         cy="796.36218"
+         cx="256.00464"
+         id="path5955"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:13.94117641;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.85098039" />
+    </g>
+  </g>
+</svg>

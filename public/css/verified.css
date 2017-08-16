@@ -1,0 +1,91 @@
+
+html { height: 100%; }
+body {
+    margin: 0 auto; position: relative;
+    background-image: url(../res/images/backgrounds/stage.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #e4e4e4;
+    font-family: 'Source Sans Pro';
+    display: flex; height: 100%;
+
+    min-width: 410px;
+}
+
+@font-face {
+    font-family: 'Neptune';
+    src: url('../res/fonts/Neptune.otf');
+}
+
+.content {
+    width: 100%;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+
+.logo {
+    font-family: 'Neptune', sans-serif;
+    font-size: 6em;
+    text-transform: lowercase;
+    letter-spacing: 0.5em;
+    opacity: 0.8;
+    text-shadow: 0 0 0.2em #000;
+}
+
+.title {
+    font-family: 'Open Sans';
+    font-size: 2em; padding: 1em 0.5em 0;
+    font-weight: 300; text-align: center;
+}
+.title #name {
+    font-family: 'Neptune';
+    text-transform: uppercase; color: crimson;
+}
+
+.text {
+    padding: 1em 1em 3em;
+    font-size: 0.9em; text-align: center;
+    box-sizing: border-box;
+}
+
+.button-area { width: 100%; text-align: center; }
+.button-area #button-link {
+    padding: 0.5em 1em;
+    font-family: 'Ubuntu Condensed';
+    text-decoration: none; color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.9em; border: 1px solid;
+
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+.button-area #button-link:hover {
+    background-color: #e4e4e4;
+    color: #1b1b1b;
+}
+
+@media all and (max-width: 916px) {
+    .logo { letter-spacing: 0.3em; }
+}
+
+@media all and (max-width: 765px) {
+    .logo { letter-spacing: 0; }
+}
+@media all and (max-width: 540px) {
+    .logo {
+        letter-spacing: 0.2em;
+        font-size: 4em;
+    }
+    .title { font-size: 1.5em; }
+}
+@media all and (max-width: 450px) {
+    .logo {
+        letter-spacing: 0.3em;
+        font-size: 3em;
+    }
+    .title { font-size: 1.2em; }
+}

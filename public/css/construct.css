@@ -1,0 +1,95 @@
+
+html, body {
+    color: #252525;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+
+    background-color: #fafafa;
+}
+
+* { box-sizing: border-box; }
+
+.page-content {
+    /* Scale to window size */
+    width: 100vw; height: 100vh;
+
+    background-image: url('../res/images/keyboard-bw-ovl.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* Layout */
+    display: flex;
+}
+
+.panel-left, .panel-right {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.panel-left .svg-wrapper {
+    width: 40%; height: 40%;
+}
+
+.links { margin: 2em 0; font-size: 1.2em; }
+.links > a {
+    text-decoration: none; padding: 0 0.5em;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.links > a:hover { color: #f9bf35 !important; }
+.links > a:active { color: #e5af30 !important; }
+
+.col-white, .links > a { color: #eee !important; }
+.col-red { color: #f13246 !important; }
+.col-yellow { color: #f9bf35 !important; }
+.text { color: #eee; margin: 0.5em 2em; }
+
+.text#text1, .text#text2 {
+    letter-spacing: 0.31em; text-transform: uppercase;
+}
+
+.text#text1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1em; letter-spacing: 0.5em;
+}
+
+.text#text2 {
+    margin-bottom: 0.1em;
+    font-family: 'Megrim', sans-serif;
+}
+
+.text#text5 {
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 5em; text-transform: uppercase;
+    letter-spacing: 0.2em; margin-right: -0.15em;
+    text-align: center;
+}
+
+.text#text3 {
+    padding: 1em 2em;
+    font-size: 0.9em;
+    
+    display: flex;
+    align-items: center; justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0; z-index: 1;
+    width: 100%;
+
+    text-align: center;
+}
+
+.text#heart-quote {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8em;
+    margin-bottom: 1.5em;
+}

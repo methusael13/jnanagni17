@@ -1,0 +1,104 @@
+.content-all { overflow-y: visible !important; }
+.left, .right { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex:1; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    perspective: 500px;
+}
+.left {flex:2;}
+
+.left .orb {
+    position: relative;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left .orb #text {
+    display: flex;
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+
+    flex-direction: column;
+    align-items: center; justify-content: center;
+    
+    color: #fff;
+    font-family: 'Ostrich Sans', sans-serif;
+    font-weight: 400; font-size: 2.0em;
+}
+
+.progress .top > #prog { font-weight: 900; font-size: 2.5em;}
+.progress .bottom {
+    margin-top: 0.4em; margin-right: -0.2em;
+    font-weight: 900; font-size: 0.4em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.content-all .left {
+    order: 0; position: relative;
+}
+.content-all .right { 
+    order: 1;
+}
+.content-all .right > .title {
+    font-family: 'Neptune';
+    text-transform: lowercase;
+    font-size: 2.7em; letter-spacing: 0.2em;
+    text-shadow: 8px 8px 0.3em rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+}
+.content-all .right > .subtitle {
+    font-family: 'Ostrich Sans';
+    text-transform: uppercase;
+    font-size: 1.2em; letter-spacing: .4em;
+    font-weight: 800; text-align: center;
+    pointer-events: none;
+    width: 100%; padding: 0.35em 0 0.17em 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.button-launch > a {
+    text-decoration: none; color: inherit;
+    transform: translate(15%, 0%);
+}
+.button-launch {
+    margin: 2em;
+    font-size:1em;
+    width: 2.5em; height: 2.5em;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(250, 250, 250, 0.2);
+    cursor: pointer; border-radius: 50%;
+    display: flex;
+    justify-content: center; align-items: center;
+}
+.button-launch:hover {  
+    background-color: rgba(255, 255, 255, 1);
+    color: #000; 
+}
+
+@media all and (orientation: landscape) {
+    .content-all {
+        flex-direction: row;
+    }
+    .right{
+        justify-content: center !important;
+    }
+}
+
+.note-info {
+    margin-top: .5em;
+    width: 100%;
+    text-align: center;
+    color: #fdfdfd;
+    font-family: monospace;
+    letter-spacing: .1em;
+    background-color: rgba(0, 0, 0, 0.33);   
+}
